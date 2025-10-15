@@ -145,7 +145,7 @@ with tab1:
             # Display results
             st.subheader("Prediction Results")
             st.write(f"**Class**: {'Parkinson\'s Disease' if prediction[0] == 1 else 'Healthy'}")
-            st.write(f"**Confidence (Healthy, PD)**: {probability[0]:.2f}, {probability[1]:.2f}")
+            # st.write(f"**Confidence (Healthy, PD)**: {probability[0]:.2f}, {probability[1]:.2f}")
 
             # Save results to CSV
             results = pd.DataFrame({
@@ -185,7 +185,7 @@ with tab2:
             # Display results
             st.subheader("Prediction Results")
             st.write(f"**Class**: {'Parkinson\'s Disease' if prediction[0] == 1 else 'Healthy'}")
-            st.write(f"**Confidence (Healthy, PD)**: {probability[0]:.2f}, {probability[1]:.2f}")
+            # st.write(f"**Confidence (Healthy, PD)**: {probability[0]:.2f}, {probability[1]:.2f}")
 
             # Save results to CSV
             results = pd.DataFrame({
