@@ -122,7 +122,7 @@ def extract_features_from_bytes(audio_bytes):
 
 # Streamlit app
 st.title("MACHINE LEARNING CA3: GROUP 9")
-st.write("Parkinson's Disease Speech Prediction")
+st.header("Parkinson's Disease Speech Prediction")
 st.write("Record or upload a WAV audio file (sustained /a/ vowel, 44.1 kHz, 3–5 seconds) to predict Parkinson's Disease.")
 
 # Tabs for recording and uploading
